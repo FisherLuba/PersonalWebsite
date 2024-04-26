@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+.App {
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    padding-top: 1%;
+    text-shadow: 1px 1px 1px #326da8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title {
+    cursor: default;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.social-links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.social-link {
+    border: none;
+    background-color: inherit;
+    /*color: #4287f5;*/
+    color: var(--link-color);
+    font-size: 18px;
+    display: inline;
+}
+
+.social-link:hover {
+    color: #2a4f7d;
+    cursor: pointer;
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-container-color);
+    /*padding: 8px;*/
+}
+
+.navbar-entry {
+    border: none;
+    /*margin: 8px;*/
+    padding: 12px;
+    background: var(--primary-container-color);
+    /*height: 100%;*/
+}
+
+.navbar-entry:hover {
+    background: var(--secondary-container-color);
+}
+
+.fake-console {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95%;
+    height: 100%;
+    text-align: left;
+}
