@@ -11,6 +11,7 @@ export const SocialLinks = () => {
 const Links = () => {
     return (
         <div>
+            <Link name="This Project" link="https://github.com/FisherLuba/PersonalWebsite"></Link>
             <Link name="LinkedIn" link="https://www.linkedin.com/in/fisher-luba/"></Link>
             <Link name="GitHub" link="https://github.com/FisherLuba"></Link>
             <Link name="Grilled Cheese" link="https://www.grilledcheese.dev"></Link>
